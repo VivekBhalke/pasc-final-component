@@ -1,0 +1,24 @@
+.main-body{
+    width: 100%;
+    border: solid red;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+@media screen and (min-width : 1024px){
+    .main-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 10px;
+        gap: 1rem;
+    }
+}
