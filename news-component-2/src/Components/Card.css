@@ -19,9 +19,10 @@
 @media (max-width : 530px){
     .first-div{
         flex-direction: column;
-        height: 700px;
+        height: auto;
         max-width: fit-content;
         padding: 5px;
+        gap: 1rem;
     }
 }
 @media (min-width : 1024px){
@@ -36,8 +37,7 @@
 }
 @media (max-width : 530px){
     .first-image-div{
-        flex: 5%;
-        height: 100px;
+        flex-shrink: 1;
 
     }
 }
