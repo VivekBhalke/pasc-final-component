@@ -1,6 +1,5 @@
 .main-body{
     width: 100%;
-    border: solid red;
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
@@ -20,5 +19,12 @@
         padding-right: 0px;
         margin-top: 10px;
         gap: 1rem;
+    }
+}
+@media (max-width : 530px) {
+    .main-body{
+        max-width: fit-content;
+        margin: 0px;
+        padding: 0px;
     }
 }
